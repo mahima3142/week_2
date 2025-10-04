@@ -9,3 +9,6 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
 src/module/testbench.v src/module/vsdbabysoc.v
 cd output/pre_synth_sim
 ./pre_synth_sim.out
+
+```markdown
+![GTKWave Simulation Output](images/pre_synth_sim.png)
